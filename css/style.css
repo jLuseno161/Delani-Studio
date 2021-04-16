@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    /* width: 1800px; */
+    max-width: 100%; /*resize page on any screen size*/
+    height: auto;
+    margin:0 auto;
+}
+.introduction {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top:5%; 
+    color: white;
+}
+#welcome{
+    font-size: 40pt;
+    font-weight: 600;
+}
+#landingPage img{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
