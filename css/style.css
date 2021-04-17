@@ -127,6 +127,11 @@ input[type=email],
     color: white;
 }
 
+/* style placeholder */
+.form-control::-webkit-input-placeholder {
+    color: white;
+}
+
 input.btn {
     height: 45px;
 }
