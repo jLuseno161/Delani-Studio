@@ -11,11 +11,63 @@ $(document).ready(function () {
         $("#product_image, #product_text").toggle();
     })
 
-
-    $(".portfolio .col-md-3 img").hover(function () {
-        $(this).css("opacity", "0.4");
+//add hover effect and text to each project
+    $('.project1').hover(function () {
+        $(this).css("opacity", "0.8");
+        $('.p1').removeClass('text');
     }, function () {
         $(this).css("opacity", "1");
+        $('.p1').addClass('text');
+    });
+
+    $('.project2').hover(function () {
+        $(this).css("opacity", "0.8");
+        $('.p2').removeClass('text');
+    }, function () {
+        $(this).css("opacity", "1");
+        $('.p2').addClass('text');
+    });
+    $('.project3').hover(function () {
+        $(this).css("opacity", "0.8");
+        $('.p3').removeClass('text');
+    }, function () {
+        $(this).css("opacity", "1");
+        $('.p3').addClass('text');
+    });
+    $('.project4').hover(function () {
+        $(this).css("opacity", "0.8");
+        $('.p4').removeClass('text');
+    }, function () {
+        $(this).css("opacity", "1");
+        $('.p4').addClass('text');
+    });
+    $('.project5').hover(function () {
+        $(this).css("opacity", "0.8");
+        $('.p5').removeClass('text');
+    }, function () {
+        $(this).css("opacity", "1");
+        $('.p5').addClass('text');
+    });
+    $('.project6').hover(function () {
+        $(this).css("opacity", "0.8");
+        $('.p6').removeClass('text');
+    }, function () {
+        $(this).css("opacity", "1");
+        $('.p6').addClass('text');
+    });
+    $('.project7').hover(function () {
+        $(this).css("opacity", "0.8");
+        $('.p7').removeClass('text');
+    }, function () {
+        $(this).css("opacity", "1");
+        $('.p2').addClass('text');
+    });
+    $('.project8').hover(function () {
+        $(this).css("opacity", "0.8");
+        $('.p8').removeClass('text');
+    }, function () {
+        $(this).css("opacity", "1");
+        $('.p8').addClass('text');
     });
 
 });
