@@ -103,3 +103,10 @@ input[type=text],input[type=email],#message{
     margin-bottom: 10px;
     color: white;
 }
+footer{
+    padding: 5%;
+}
+footer img{
+    margin-left:5px;
+    margin-bottom: 30px;
+}
