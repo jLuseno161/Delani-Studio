@@ -96,6 +96,7 @@ input {
    height: 60px;
 }
 
+/* set inputfields transparent */
 input[type=text],input[type=email],#message{
     background-color: transparent;
     box-sizing: border-box;
