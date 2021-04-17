@@ -11,7 +11,7 @@ $(document).ready(function () {
         $("#product_image, #product_text").toggle();
     })
 
-//add hover effect and text to each project
+    //add hover effect and text to each project
     $('.project1').hover(function () {
         $(this).css("opacity", "0.7");
         $('.p1').removeClass('text');
@@ -70,4 +70,14 @@ $(document).ready(function () {
         $('.p8').addClass('text');
     });
 
+    document.getElementById('submit').addEventListener('click', function () {
+        var username = $("#name").val();
+        var email = $("#email").val();
+        var message = $("#message").val();
+        if ($("#name").val() && $("#email").val() && $("#message").val()) {
+            alert("Hi " + username + ", we have received your message. Thank you for reaching out to us.");
+        } else {
+            alert("Please fill all fields!");
+        }
+    })
 });
