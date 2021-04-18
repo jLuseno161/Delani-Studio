@@ -8,12 +8,14 @@
     <title>Delani Studio</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/9c10fab11d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="index.js"></script>
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -146,17 +148,21 @@
     <section class="contactUs">
         <h2>CONTACT US</h2>
         <div>
-            <form class="container" action="">
+            <form class="container"
+                action="https://gmail.us1.list-manage.com/subscribe/post?u=aded0ebcf09befc510b0a91b0&amp;id=543a6e92ff"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                target="_blank" novalidate>
                 <div class="d-flex justify-content-between">
-                    <input type="text" id="name" class="form-control" placeholder="Name">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                    <input type="text" name="FNAME" class="form-control" placeholder="Name" id="mce-FNAME">
+                    <input type="email" name="EMAIL" class="form-control required email" placeholder="Email"
+                        id="mce-EMAIL">
                 </div>
                 <div>
                     <textarea id="message" name="textarea" class="form-control" placeholder="Write your message here..."
                         cols="30" rows="10"></textarea>
                 </div>
                 <div id="button">
-                    <input type="submit" id="submit" class="btn btn-primary mb-3" value="SEND MESSAGE">
+                    <input type="submit" id="submit" name="subscribe" class="btn btn-primary mb-3" value="SEND MESSAGE">
                 </div>
             </form>
         </div>
@@ -175,6 +181,22 @@
         </div>
         <p>DELANI STUDIO <br>2019</p>
     </footer>
+    <!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>
+        (function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[1] = 'FNAME';
+            ftypes[1] = 'text';
+            // fnames[2] = 'MESSAGE';
+            // ftypes[2] = 'text';
+
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
+    </script> -->
+
 </body>
 
 </html>
