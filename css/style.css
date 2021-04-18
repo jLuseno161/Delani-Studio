@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    /* width: 1800px; */
+    width: 1800px;
     max-width: 100%;
     height: auto;
     margin: 0 auto;
@@ -100,10 +100,6 @@ h2 {
 .text {
     display: none;
 }
-
-/* .portfolio .col-md-3 img:hover {
-    opacity: 0.4;
-} */
 
 .contactUs {
     padding: 5%;

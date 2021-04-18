@@ -1,6 +1,6 @@
 ## Delani Studio
 
-# ![Delani-Studio](https://jluseno161.github.io/Delani-Studio/assets/app.png)
+# ![Delani-Studio](https://jluseno161.github.io/Delani-Studio/assets/app.jpg)
 
 ## Author
 
